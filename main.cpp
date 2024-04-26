@@ -13,11 +13,13 @@ int main() {
     std::cout << "El perímetro del triángulo es: " << t->perimetro() << std::endl << std::endl;
     delete t;
 
+
     Cuadrado *c = new Cuadrado(lado);
     std::cout << "Cuadrado de lado " << lado << std::endl;
     std::cout << "El área del cuadrado es: " << c->area() << std::endl;
     std::cout << "El perímetro del cuadrado es: " << c->perimetro() << std::endl << std::endl;
     delete c;
+
 
     Pentagono *p = new Pentagono(lado);
     std::cout << "Pentágono de lado " << lado << std::endl;
